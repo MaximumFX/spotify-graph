@@ -49,7 +49,9 @@
 					<div ref="svg"></div>
 				</Col>
 				<Col width="fit" v-if="artists.length">
-					<v-button @click="download">Download as png</v-button>
+					<div class="text-center mb-4">
+						<v-button @click="download">Download as png</v-button>
+					</div>
 					<h1 class="mb-2">Top 15 Artists</h1>
 					<ol class="list-decimal list-inside">
 						<li v-for="i in 15" :key="i"><span class="text-white font-medium">{{artists[i-1].name}}</span>: {{artists[i-1].count}} times</li>
