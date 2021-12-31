@@ -1,24 +1,19 @@
-# spotify-graph
+# Spotify Graph
+> Graph out your listening history
 
-## Project setup
-```
-npm install
-```
+Use your Spotify data to generate graphs detailing your listening history over the year.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+[Try it out!](https://maximumfx.nl/spotify-graph/)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+![Screenshot](public/banner.png)
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Available settings
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* **Graph Width**: `1920`
+* **Graph Height**: `800`
+* **Minimum listened ms (per song)**: `1000`
+* **Minimum plays (per artist)**: `250`
+* **Ignore Artists**: `''`
+* **Group by**: `MONTH`
+* **Start date**: _from data_
+* **End date**: _from data_
